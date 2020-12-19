@@ -1,5 +1,5 @@
 /*
-** OOo MediaWiki Skin based on monobook by Gabriel Wicke - http://wikidev.net/
+** AOO MediaWiki Skin based on monobook by Gabriel Wicke - http://wikidev.net/
 ** License: GPL (http://www.gnu.org/copyleft/gpl.html)
 */
 
@@ -115,7 +115,7 @@ li#pt-userpage a,li#pt-anonuserpage a,li#pt-login a { background: url(/w/skins/a
 #bodyContent .plainlinks a { background: none; padding: 0; }
 
 #contentSub,#contentSub2 { color: #7d7d7d; font-size: 84%; line-height: 1.6em; width: auto; margin: .4em 0 1.4em 4px; }
-.firstHeading { color: #036; background-color: #DBEDF8; font-weight: bolder; border-top: 1px solid #86C2E6; border-bottom: 1px solid #86C2E6; margin: 0; padding: 10px 5px; }
+.firstHeading { color: #036; background-color: #DBEDF8; font-weight: bolder; border: 1px solid #86C2E6; margin: 0; padding: 5px 5px; }
 .usermessage { background-color: #ffce7b; border: 1px solid orange; color: #000; font-weight: bold; vertical-align: middle; margin: 2em 0 1em; padding: .5em 1em; }
 #siteNotice { text-align: center; font-size: 95%; padding: 0 .9em; }
 .error { color: red; font-size: larger; }
@@ -171,9 +171,9 @@ li#ca-watch,li#ca-unwatch,li#ca-varlang-0,li#ca-print { margin-left: 1.6em; }
 #footer li { display: inline; margin: 0 .25em; padding: 0; background: none; }
 #footer a { color: #555; }
 #footer a:hover { color: #069; }
-#f-poweredbyico, #f-copyrightico { margin: 0 15px; position: relative;  }
+#f-poweredbyico, #f-copyrightico { margin: 0 15px; position: relative; }
 #f-poweredbyico { float: right; height: 1%; top: 3px; }
-#f-copyrightico { float: left; height: 1%; top: -5px; }
+#f-copyrightico { float: left; height: 1%; top: 3px; }
 
 #preftoc { width: 100%; clear: both; margin: 0 0 0 1px; padding: 0; }
 #preftoc li { float: left; background-color: #F2F2F2; background-image: none; color: #000; border: 1px solid #CCC; border-bottom: none; position: relative; white-space: nowrap; z-index: 3; margin: 7px 0 -2px -1px; padding: 1px 0 2px; }
@@ -265,32 +265,32 @@ div.floatright p,div.floatleft p,.sharedUploadNotice,span.comment { font-style: 
 
 /* Added by Gav as per INFRA-4652 */
 
-.lang { 
-   background: none repeat scroll 0 0 #F9F9F9; 
-   border: 1px solid #E9E9E9; 
-   font-size: smaller; 
-   margin: 0 0 1em; 
-   padding: 0.5em 1em; 
-   text-align: left; 
-} 
-.lang ul { 
-   display: inline; 
-   margin-left: 0; 
-   padding-left: 0; 
-} 
-.lang ul li { 
-   background-image: none; 
-   border-left: 1px solid #E4E4E4; 
-   display: inline; 
-   list-style: none outside none; 
-   margin-left: 0; 
-   padding: 0 0.5em; 
-} 
-.lang ul li .lang_main { 
-   border-left: medium none; 
-   display: inline; 
-   list-style: none outside none; 
-   margin-left: 0; 
-   padding-left: 0; 
-} 
+.lang {
+   background: none repeat scroll 0 0 #F9F9F9;
+   border: 1px solid #E9E9E9;
+   font-size: smaller;
+   margin: 0 0 1em;
+   padding: 0.5em 1em;
+   text-align: left;
+}
+.lang ul {
+   display: inline;
+   margin-left: 0;
+   padding-left: 0;
+}
+.lang ul li {
+   background-image: none;
+   border-left: 1px solid #E4E4E4;
+   display: inline;
+   list-style: none outside none;
+   margin-left: 0;
+   padding: 0 0.5em;
+}
+.lang ul li .lang_main {
+   border-left: medium none;
+   display: inline;
+   list-style: none outside none;
+   margin-left: 0;
+   padding-left: 0;
+}
 
