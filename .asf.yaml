@@ -1,0 +1,13 @@
+github:
+  description: "Apache OpenOffice MediaWiki"
+  homepage: "https://wiki.openoffice.org/"
+  labels:
+    - openoffice
+    - apache
+    - mediawiki
+
+notifications:
+  commits:      commits@openoffice.apache.org
+  issues:       dev@openoffice.apache.org
+  pullrequests: dev@openoffice.apache.org
+
