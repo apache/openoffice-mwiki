@@ -4,7 +4,7 @@
  * The IDLTagExtension was written to manage the IDL links in the OpenOffice.org Developer's Guide. 
  * The extension converts Java paths to links back to the online IDL documentation.
  * @version 1.1.0
- * @link http://wiki.openoffice.org/wiki/Wiki_maintenance/IDLTagExtension
+ * @link https://wiki.openoffice.org/wiki/MediaWiki_Extension/Extension_IDLTags#IDLTags_extension_for_Mediawiki
  */
 
 if ( !defined( 'MEDIAWIKI' ) ) {
@@ -17,7 +17,7 @@ $wgExtensionCredits['parserhook'][] = array(
 	'version' => '1.1.0',
 	'author' => array( 'Clayton Cornell', 'Terry Ellison' ),
 	'description' => 'Manage the IDL links in the OOo Dev Guide ',
-	'url' => 'http://wiki.openoffice.org/wiki/Wiki_maintenance/IDLTagExtension',
+	'url' => 'https://wiki.openoffice.org/wiki/MediaWiki_Extension/Extension_IDLTags#IDLTags_extension_for_Mediawiki',
 );
 
 global $wgExtIDLtags;
@@ -38,7 +38,7 @@ class RenderIDLtags {
 	function renderIDL( $input, $args, $parser ) {
 		$parser->disableCache();
 		$output = $parser->recursiveTagParse( $input );
-		$output = '<a href="http://api.openoffice.org/docs/common/ref/' . 
+		$output = '<a href="https://www.openoffice.org/api/docs/common/ref/' . 
 			str_replace ('.','/',$output).'.html" class="external text">'.$output.'</a>';
 		return $output;
 	}
@@ -49,7 +49,7 @@ class RenderIDLtags {
 		$page = preg_replace ('/\./','/',$output);
 		$anchor = preg_replace ('/:/','.html#',$page);
 		$function = preg_replace ('/^.*:/','',$page);
-		$output = '<a href="http://api.openoffice.org/docs/common/ref/' . 
+		$output = '<a href="https://www.openoffice.org/api/docs/common/ref/' . 
 			$anchor.'" class="external text">'.$function.'</a>';
 		return $output;
 	}
@@ -58,7 +58,7 @@ class RenderIDLtags {
 		$parser->disableCache();
 		$output = $parser->recursiveTagParse( $input );
 		$function = preg_replace ('/^.*\./','',$output);
-		$output = '<a href="http://api.openoffice.org/docs/common/ref/' . 
+		$output = '<a href="https://www.openoffice.org/api/docs/common/ref/' . 
 			preg_replace ('/\./','/',$output).'.html" class="external text">'.$function.'</a>';
 		return $output;
 	}
@@ -67,7 +67,7 @@ class RenderIDLtags {
 		$parser->disableCache();
 		$output = $parser->recursiveTagParse( $input );
 		$function = preg_replace ('/^.*\./','',$output);
-		$output = '<a href="http://api.openoffice.org/docs/common/ref/' . 
+		$output = '<a href="https://www.openoffice.org/api/docs/common/ref/' . 
 			preg_replace ('/\./','/',$output).'/module-ix.html" class="external text">'.$output.'</a>';
 		return $output;
 	}
