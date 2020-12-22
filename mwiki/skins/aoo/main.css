@@ -37,9 +37,9 @@ a.new:visited,#p-personal a.new:visited { color: #a55858; }
 input.historysubmit { font-size: 94%; cursor: pointer; height: 1.7em; margin: .25em 0 .25em 0; padding: 0 .3em .3em; }
 .visualClear { clear: both; }
 
-.portlet { border: none; float: none; width: 162px; overflow: hidden; margin: 0; padding: 0; }
+.portlet { border: none; float: none; width: 172px; overflow: hidden; margin: 0; padding: 0; }
 .portlet h4 { font-size: 95%; font-weight: normal; white-space: nowrap; }
-.portlet h5 { background: url(/w/skins/aoo/dt-bg.png) left bottom #DCE9FC repeat-x; border-bottom: 1px solid #9BC0F5; color: #039; padding: 5px 0 5px 15px; font-weight: bold; font-size: 1.1em; margin: 0; }
+.portlet h5 { background: url(/w/skins/aoo/dt-bg.png) left bottom #DCE9FC repeat-x; color: #039; padding: 8px 0 5px 8px; font-weight: bold; font-size: 1.1em; margin: 0; }
 .portlet h6 { background: #ffae2e; border: 1px solid #2f6fab; text-transform: lowercase; display: block; font-size: 1em; height: 1.15em; font-weight: normal; white-space: nowrap; border-style: solid solid none; padding: 0 1em; }
 .pBody { font-size: 100%; color: #000; border-collapse: collapse; margin: 0; padding: 0; }
 
