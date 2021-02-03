@@ -6,3 +6,7 @@ Extensions are of four types:
 
 [1] https://www.mediawiki.org/wiki/Special:ExtensionDistributor
 
+== Using tags for syntax coloring: ==
+mwiki uses Syntaxhighlight extension for coloring of source code.
+In older versions (before MediaWiki 1.16), the extension used the tag <source>. 
+This is still supported, but is deprecated. <syntaxhighlight> should be used instead.
